@@ -1,5 +1,5 @@
 # COVID-19_global_time_sesries_panel_data
-## This project contians three different part:
+## This project contians three different parts:
 - 1. EDA for Covid-19 global data 
 - 2. Machine Learning: LSTM for confirmed cases data 
 - 3. Machine Learning: LSTM for fatalities data 
