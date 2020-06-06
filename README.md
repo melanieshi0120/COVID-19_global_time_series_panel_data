@@ -1,5 +1,5 @@
 # COVID-19_global_time_sesries_panel_data
-## This project contians three different part:
+## This project contians three different parts:
 - 1. EDA for Covid-19 global data 
 - 2. Machine Learning: LSTM for confirmed cases data 
 - 3. Machine Learning: LSTM for fatalities data 
@@ -43,4 +43,4 @@ There are different algorithms to deal with time-series data but rarely have ver
 
 #
 ## Blog:https://medium.com/@melaniesoek0120/covid-19-global-data-time-series-prediction-with-lstm-recurrent-neural-networks-f7825c4a1f6f
-## Dashboard:
+## Dashboard:https://public.tableau.com/profile/hua.shi#!/vizhome/covid-19dashbord/covid-19dashboard?publish=yes
