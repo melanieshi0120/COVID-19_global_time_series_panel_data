@@ -45,10 +45,10 @@ LSTM works well For overall data especially for fatality data. The RMSEs are 7.7
 ![](images/prediction_VS_actual_fatalities.png)
 
 #### LSTM model for indivisual countries' data (France, UK, USA, Spain)
-France - RMSE: 1674.8059617682995
-United Kingdom - RMSE: 1633.3314995403064
-US - RMSE: 141.41340542398365
-Spain - RMSE: 84.21465660565721
+- France - RMSE: 1674.8059617682995
+- United Kingdom - RMSE: 1633.3314995403064
+- US - RMSE: 141.41340542398365
+- Spain - RMSE: 84.21465660565721
 
 ![](images/france_model_result.png)
 ![](images/uk_model_result.png)
