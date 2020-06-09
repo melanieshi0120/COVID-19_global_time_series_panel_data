@@ -24,6 +24,11 @@ The USA has been facing a more serious situation. From March 2020 the trend of c
 ![](images/confirmedcases_usa_map.png)
 ![](images/Total-Fatalities-by-States.png)
 The bar chart shows that those states also have high numbers of fatalities. New York State is suffering the most difficult time. There are 204K confirmed cases and total deaths are 16,410 by June-1st-2020 in New York.
+### New York City
+![](images/NYC_COVID-19_Ttrend.png)
+![](images/nyc_map.png)
+Queens and Brooklyn affected by COVID-19 most. From the map we can see Queens has the highest numbers of confirmed cases and fatalities. 
+
 ## Data pre-processing
 - Data Standardization
 - Train test split
@@ -32,11 +37,25 @@ The bar chart shows that those states also have high numbers of fatalities. New 
 ) 
 
 ## Model: 
-Long Short-Term Memory (LSTM) recurrent neural networks are great algorithm to time series data which can easily adapt to multivariate or multiple input forecasting problems. There are two ways to solve time-series panel data : either loop throughout the model for each country’s data or for the countries’ panel data once. In this project I used second way to predict the data 
-### Confirmed Cases
-![](images/prediction_VS_actual_confirmed_cases.png)
-###  Fatalities 
+Long Short-Term Memory (LSTM) recurrent neural networks are great algorithm to time series data which can easily adapt to multivariate or multiple input forecasting problems. There are two ways to solve time-series panel data : either loop throughout the model for each country’s data or for the countries’ panel data once. In this project I used second way to predict the data
+### LSTM model for overall data 
+LSTM works well For overall data especially for fatality data. The RMSEs are 7.723653480839136 and 66.66583844404396 for fatality data and confirmed data respectively. 
+#### Confirmed Cases VS Fatalities
+![](images/prediction_VS_actual_confirmed_cases.png)  
 ![](images/prediction_VS_actual_fatalities.png)
+
+#### LSTM model for indivisual countries' data (France, UK, USA, Spain)
+- France - RMSE: 1674.8059617682995
+- United Kingdom - RMSE: 1633.3314995403064
+- US - RMSE: 141.41340542398365
+- Spain - RMSE: 84.21465660565721
+
+![](images/france_model_result.png)
+![](images/uk_model_result.png)
+![](images/usa_model_result.png)
+![](images/spain_model_result.png)
+
+
 
 ## Conclusion:
 There are different algorithms to deal with time-series data but rarely have very good models for time series panel data. Even though there are statistical models such as Random Effect, Fixed Effect, and pooled OLS models, however, those models are based on linear models and linear methods can be difficult to adapt to multivariate or multiple input forecasting problems. On the other hand, LSTM is the ideal algorithm for multiple-input forecasting problems and it shows excellent ability to time series panel data forecasting.
