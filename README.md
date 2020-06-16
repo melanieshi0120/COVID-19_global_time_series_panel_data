@@ -25,9 +25,19 @@ The USA has been facing a more serious situation. From March 2020 the trend of c
 ![](images/Total-Fatalities-by-States.png)
 The bar chart shows that those states also have high numbers of fatalities. New York State is suffering the most difficult time. There are 204K confirmed cases and total deaths are 16,410 by June-1st-2020 in New York.
 ### New York City
-![](images/NYC_COVID-19_Ttrend.png)
-![](images/nyc_map.png)
 Queens and Brooklyn affected by COVID-19 most. From the map we can see Queens has the highest numbers of confirmed cases and fatalities. 
+![](images/NYC_COVID-19_Ttrend.png)
+![](images/nyc_map1.png)
+#### COVID-19 confirmed cases and fatality by age 
+![](images/age.png)
+#### COVID-19 confirmed cases and fatality by gender
+![](images/gender.png)
+#### COVID-19 confirmed cases and fatality by poverty
+![](images/poverty.png)
+#### COVID-19 confirmed cases and fatality by race 
+![](images/race.png)
+
+
 
 ## Data pre-processing
 - Data Standardization
