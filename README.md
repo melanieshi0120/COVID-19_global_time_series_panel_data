@@ -27,7 +27,7 @@ The bar chart shows that those states also have high numbers of fatalities. New 
 ### New York City
 Queens and Brooklyn affected by COVID-19 most. From the map we can see Queens has the highest numbers of confirmed cases and fatalities. 
 ![](images/NYC_COVID-19_Ttrend.png)
-![](images/nyc_map_1.png.png)
+![](images/nyc_map_1.png)
 #### COVID-19 confirmed cases and fatality by age 
 ![](images/age.png)
 #### COVID-19 confirmed cases and fatality by gender
